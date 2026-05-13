@@ -1,6 +1,6 @@
 from letter import LETTER_TEMPLATE
 
-client_name = input("Введіть ім'я та прізвище: ")
+client_name = input("Введіть своє ім'я та прізвище: ")
 trip_date = input("Введіть дату поїздки (DD.MM.YYYY): ")
 persons_count = int(input("Введіть кількість осіб: "))
 
