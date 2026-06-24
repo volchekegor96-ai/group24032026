@@ -38,7 +38,7 @@ def process_and_send(data: dict):
 
 
 def main():
-    put_text("Сервіс обчислення довжини стрічки та відправки результатів")
+    put_text("Обчислення довжини стрічки та відправки результатів на Укр.Нет ")
 
     form_data = input_group("Введіть дані", [
         input("Ваше ім'я", name='username', required=True),
