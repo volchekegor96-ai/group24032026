@@ -71,7 +71,7 @@ class ServiceStation:
             return
 
         transport_unit.condition += 40
-        print(f"Ремонт зроблено,стан {transport_unit.__class__.__name__}: {transport_unit.condition}%")
+        print(f"Ремонт зроблено, стан {transport_unit.__class__.__name__}: {transport_unit.condition}%")
 
 
 car = Car("Toyota Camry")
